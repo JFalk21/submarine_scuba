@@ -1,0 +1,18 @@
+.jf-animation-button {
+  animation-name: pulse;
+  animation-duration: 1s;
+  /*animation-timing-function: ease-out;*/
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+@keyframes pulse {
+            0% {
+                transform: scale(1.0);
+            }
+  
+            100% {
+                transform: scale(1.2);
+            }
+        }
