@@ -1,7 +1,6 @@
 .submarine-scuba-animation-button {
   animation-name: pulse;
   animation-duration: 1s;
-  /*animation-timing-function: ease-out;*/
   animation-direction: alternate;
   animation-iteration-count: infinite;
   animation-play-state: running;
