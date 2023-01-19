@@ -142,6 +142,23 @@
 					</div>
 				</div>
 				<br>
+
+				<p class="mbr-text mbr-fonts-style mbr-white align-center display-7">
+					Estendemos a compra desta <b>promoção até <span id="date-label" style="font-weight:bold;"></span></b>
+				</p>
+				<script type="text/javascript">
+					var e = new Date,
+					        a = e.getDate(),
+					        t = e.getMonth(),
+					        o = e.getFullYear();
+					        t = t + 1;
+					    document.getElementById("date-label").innerHTML = ["Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado"][e.getDay()] + ", " + a + "/" + t + "/" + o, $(".js-tilt").tilt({
+					        glare: !0,
+					        maxGlare: .5,
+					        scale: 1.2
+					    });
+				</script>
+
 				<div class="buttons-wrap align-center align-self-center submarine-scuba-animation-button">
 					<div class="mbr-section-btn"><a class="btn btn-md btn-success display-7" href="https://app.monetizze.com.br/checkout/DXC136252" target="_blank" ><strong>Sim! Quero aproveitar a promoção!</strong></a></div>
 				</div><br>
