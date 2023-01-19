@@ -1,3 +1,34 @@
+footer {
+  background-color: #042a6d;
+  color: #ffffff;
+  padding: 20px;
+  bottom: 0;
+  text-align: center;
+}
+
+footer.footer-fixed {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.submarine-scuba-h3 {
+    background-color: #ff3424;
+    font-weight: bold;
+    color: #ffffff;
+    /*margin: 15px auto;*/
+    padding: 2px;
+    line-height: 1.9;
+    margin-bottom: 0px;
+}
+
 .submarine-scuba-animation-button {
   animation-name: pulse;
   animation-duration: 1s;
