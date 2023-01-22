@@ -47,3 +47,11 @@ footer p {
                 transform: scale(1.0);
             }
         }
+#texto-topo-submarine {
+  display: none;
+}
+@media (min-width: 800px) {
+  #texto-topo-submarine {
+    display: block;
+  }
+}
