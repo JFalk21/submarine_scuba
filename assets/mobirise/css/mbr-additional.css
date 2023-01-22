@@ -1095,13 +1095,13 @@ a {
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width:500px) {
   .cid-tpJUkv0hxy {
     background-image: url("../../../assets/images/topo-2000x1063_.jpg");
   }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 50px) {
   .cid-tpJUkv0hxy {
     background-image: url("../../../assets/images/CAPA-SITE-2023---SUBMARINE.jpg");
   }
