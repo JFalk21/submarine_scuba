@@ -1094,9 +1094,20 @@ a {
     left: -1rem;
   }
 }
-.cid-tpJUkv0hxy {
-  background-image: url("../../../assets/images/foto-nova-topo-site-submarine.jpg");
+
+@media (min-width: 768px) {
+  .cid-tpJUkv0hxy {
+    background-image: url("../../../assets/images/topo-2000x1063_.jpg");
+  }
 }
+
+@media(max-width: 768px) {
+  .cid-tpJUkv0hxy {
+    background-image: url("../../../assets/images/CAPA-NOVA-SUBMARINE.jpg");
+  }
+}
+
+
 .cid-tpJUkv0hxy .img-wrap {
   width: 100%;
   margin-bottom: 3rem;
