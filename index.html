@@ -123,7 +123,7 @@
 			<div class="col-12 col-lg-12">
 			<div class="row justify-content-center">
 	    			<div class="col-12 col-md-10 col-lg-8" >
-						<img id="#texto-topo-submarine" src="assets/images/1-letter-1016x581_.png">
+						<img id="#texto-topo-submarine" src="assets/images/1-letter-1016x581_.png" style="display: none !important;">
 					</div>
 				</div>
 
@@ -140,10 +140,20 @@
 	
 	if (iOS){
     	$(function() {
-    	$(".texto-topo-submarine").css("display","block");
-    	$("#header5-2").css("background-image","url(assets/images/topo-2000x1063_.jpg)");
-    });
-}
+    		$("#header5-2").css("background-image","url(assets/images/topo-2000x1063_.jpg)");
+
+    		background-image: url("../../../assets/images/");
+
+
+    	});
+
+	} else {
+    	$(function() {
+    		background-image: url("../../../assets/images/");
+   			$("#header5-2").css("background-image","url(assets/images/CAPA-SITE-2023---SUBMARINE.jp)");
+			$("#texto-topo-submarine").css("display","none");
+		});
+	}
 
 
 </script>
